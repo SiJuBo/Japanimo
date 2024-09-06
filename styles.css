@@ -1,0 +1,58 @@
+/* Allgemeine Stile für die Webseite */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    color: #d35400;
+    text-align: center;
+    font-size: 2.5em;
+}
+.description ol {
+    list-style: none;
+    padding: 0;
+}
+.description li {
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.about-me, .begin {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.about-me h1, .begin h1 {
+    text-align: center;
+    color: #d35400;
+}
+a {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px auto;
+    width: 200px;
+    background-color: #d35400;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+a:hover {
+    background-color: #e67e22;
+}
+
